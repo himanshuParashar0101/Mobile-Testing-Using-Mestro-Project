@@ -120,5 +120,4 @@ nudge-app-test-suite/
 ├── nudge_app_tests.yaml
 └── README.md
 
-
 This test suite represents hours of meticulous planning, coding, and validation to ensure the highest quality standards for the Nudge app. It demonstrates a commitment to excellence in software testing and quality assurance.
