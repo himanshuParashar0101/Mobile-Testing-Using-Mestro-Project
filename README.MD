@@ -1,4 +1,4 @@
-d# Nudge App Maestro Test Suite
+## Nudge App Maestro Test Suite
 
 ## Overview
 This repository contains a comprehensive automated test suite for the Nudge app, meticulously crafted using Maestro. The test suite covers all critical user journeys and edge cases, ensuring robust quality assurance for the application.
@@ -83,14 +83,6 @@ To run all tests:
 - Dynamically generated test data to ensure uniqueness across test runs
 - Proper cleanup procedures to maintain a pristine test environment
 
-## Reporting
-After test execution, detailed reports are generated in the `./test-reports` directory, providing insights into:
-- Test case pass/fail status
-- Execution time metrics
-- Screenshot captures at critical checkpoints
-
-## Continuous Integration
-This test suite is designed to integrate seamlessly with CI/CD pipelines. Refer to `.github/workflows/maestro-tests.yml` for GitHub Actions configuration.
 
 ## Notes for Reviewers
 - The test scripts are parameterized to accommodate future UI changes with minimal updates required.
@@ -101,24 +93,5 @@ This test suite is designed to integrate seamlessly with CI/CD pipelines. Refer 
 
 
 ## Folder Structure
-nudge-app-test-suite/
-|-- user_flows/
-|   |-- new_user_flow.yaml
-|   |-- existing_user_flow.yaml
-|   |-- user_deletion_flow.yaml
-|-- features/
-|   |-- story_flow.yaml
-|   |-- quiz_flow.yaml
-|-- performance/
-|   |-- load_test.yaml
-|-- edge_cases/
-|   |-- network_interruption.yaml
-|-- utils/
-|   |-- test_data_cleanup.yaml
-|   |-- generate_report.yaml
-|-- setup/
-|   |-- environment_check.yaml
-|-- nudge_app_tests.yaml
-|-- README.md
-
+(https://github.com/himanshuParashar0101/nudge-maestro-tests-Himanshu-Parashar/blob/main/Screenshot%202024-07-23%20220516.jpg)
 This test suite represents hours of meticulous planning, coding, and validation to ensure the highest quality standards for the Nudge app. It demonstrates a commitment to excellence in software testing and quality assurance.
