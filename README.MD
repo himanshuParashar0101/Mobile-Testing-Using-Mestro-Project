@@ -1,4 +1,4 @@
-# Nudge App Maestro Test Suite
+d# Nudge App Maestro Test Suite
 
 ## Overview
 This repository contains a comprehensive automated test suite for the Nudge app, meticulously crafted using Maestro. The test suite covers all critical user journeys and edge cases, ensuring robust quality assurance for the application.
