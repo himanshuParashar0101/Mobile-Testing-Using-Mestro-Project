@@ -88,10 +88,9 @@ To run all tests:
 - The test scripts are parameterized to accommodate future UI changes with minimal updates required.
 - Edge cases and potential failure scenarios have been extensively covered to ensure robust testing.
 - Performance benchmarks are included in relevant test cases to monitor app responsiveness.
----
-
-
 
 ## Folder Structure
 ![ScreenShot](https://github.com/himanshuParashar0101/nudge-maestro-tests-Himanshu-Parashar/blob/main/Screenshot%202024-07-23%20220516.jpg)
+
+
 This test suite represents hours of meticulous planning, coding, and validation to ensure the highest quality standards for the Nudge app. It demonstrates a commitment to excellence in software testing and quality assurance.
