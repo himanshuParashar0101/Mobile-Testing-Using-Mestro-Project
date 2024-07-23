@@ -1,0 +1,17 @@
+appId: com.nudgenow.testapp
+---
+# Network Interruption Test
+
+- launchApp
+- tapOn: "User Identifier"
+- inputText: "networkuser@test.com"
+- tapOn: "Login"
+- assertVisible: "Login successful"
+
+# Simulate network interruption
+- runScript: adb shell svc wifi disable
+- tapOn: "Track story"
+- assertVisible: "Network error"
+- runScript: adb shell svc wifi enable
+- tapOn: "Retry"
+- assertVisible: "Story tracked successfully"

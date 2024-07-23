@@ -1,0 +1,15 @@
+appId: com.nudgenow.testapp
+---
+# Load Test Simulation
+
+- launchApp
+- repeat:
+    times: 10
+    commands:
+      - tapOn: "User Identifier"
+      - inputText: ${RANDOM_EMAIL}
+      - tapOn: "Create User"
+      - assertVisible: "User created successfully"
+      - tapOn: "Track story"
+      - tapOn: "Track Quiz"
+      - tapOn: "Logout"

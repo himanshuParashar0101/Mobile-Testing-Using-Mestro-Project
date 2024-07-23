@@ -1,0 +1,8 @@
+appId: com.nudgenow.testapp
+---
+# Test Data Cleanup
+
+- launchApp
+- tapOn: "Admin Panel"
+- tapOn: "Clear Test Data"
+- assertVisible: "Test data cleared successfully"

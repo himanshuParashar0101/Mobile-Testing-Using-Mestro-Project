@@ -1,0 +1,8 @@
+appId: com.nudgenow.testapp
+---
+# Environment Check
+
+- launchApp
+- assertVisible: "Welcome to Nudge"
+- runScript: echo "App version: $(adb shell dumpsys package com.nudgenow.testapp | grep versionName)"
+- runScript: echo "Device info: $(adb shell getprop ro.product.model)"

@@ -1,0 +1,6 @@
+appId: com.nudgenow.testapp
+---
+# Generate Test Report
+
+- runScript: node generate_report.js
+- assertVisible: "Report generated successfully"
