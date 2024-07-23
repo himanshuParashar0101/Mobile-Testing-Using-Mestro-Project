@@ -93,5 +93,5 @@ To run all tests:
 
 
 ## Folder Structure
-(https://github.com/himanshuParashar0101/nudge-maestro-tests-Himanshu-Parashar/blob/main/Screenshot%202024-07-23%20220516.jpg)
+![ScreenShot](https://github.com/himanshuParashar0101/nudge-maestro-tests-Himanshu-Parashar/blob/main/Screenshot%202024-07-23%20220516.jpg)
 This test suite represents hours of meticulous planning, coding, and validation to ensure the highest quality standards for the Nudge app. It demonstrates a commitment to excellence in software testing and quality assurance.
