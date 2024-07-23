@@ -100,24 +100,25 @@ This test suite is designed to integrate seamlessly with CI/CD pipelines. Refer 
 
 
 
+## Folder Structure
 nudge-app-test-suite/
-├── user_flows/
-│   ├── new_user_flow.yaml
-│   ├── existing_user_flow.yaml
-│   └── user_deletion_flow.yaml
-├── features/
-│   ├── story_flow.yaml
-│   └── quiz_flow.yaml
-├── performance/
-│   └── load_test.yaml
-├── edge_cases/
-│   └── network_interruption.yaml
-├── utils/
-│   ├── test_data_cleanup.yaml
-│   └── generate_report.yaml
-├── setup/
-│   └── environment_check.yaml
-├── nudge_app_tests.yaml
-└── README.md
+|-- user_flows/
+|   |-- new_user_flow.yaml
+|   |-- existing_user_flow.yaml
+|   |-- user_deletion_flow.yaml
+|-- features/
+|   |-- story_flow.yaml
+|   |-- quiz_flow.yaml
+|-- performance/
+|   |-- load_test.yaml
+|-- edge_cases/
+|   |-- network_interruption.yaml
+|-- utils/
+|   |-- test_data_cleanup.yaml
+|   |-- generate_report.yaml
+|-- setup/
+|   |-- environment_check.yaml
+|-- nudge_app_tests.yaml
+|-- README.md
 
 This test suite represents hours of meticulous planning, coding, and validation to ensure the highest quality standards for the Nudge app. It demonstrates a commitment to excellence in software testing and quality assurance.
